@@ -1,0 +1,34 @@
+.content{
+    width: 80%;
+    margin: 0 auto;
+}
+nav .content{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+.logo{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+.nav-links a{ 
+    font-family: 'Roboto', sans-serif;
+    padding-left: 20px;
+    color: #000;
+    font-size: 13px;
+    text-decoration: none;
+}
+.hero-wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+.hero-text{
+    width: 40%;
+}
+.hero-text h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+}
