@@ -6,38 +6,153 @@
     <title>Travel blog</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css"> 
 </head>
 <body>
     <header>
         <nav>
             <div class="content">
-                <p class="logo">Travel home</p>
-                <div class="nav-links">
-                    <a href="">Home</a>
-                    <a href="">Tab one</a>
-                    <a href="">Tab two</a>
-                    <a href="">Tab three</a>
-                    <a href="">Tab four</a>
+                <p class="logo">Travel<span>world</span> </p>   
+                <div class="nav-content">
+                    <i class="fa-solid fa-bars" id="menu-bar"></i>
+                    <div class="nav-links">
+                        <a href="#">Home</a>
+                        <a href="#service-section">Services</a>
+                        <a href="#blog-section">Blog</a>
+                        <a href="#testimonial-section">Testimonials</a>
+                        <a href="#" id="nav-button">Contact</a>
+                    </div>
                 </div>
+
             </div>
         </nav>
         <div class="content">
             <div class="hero-wrapper">
                 <div class="hero-text">
-                    <h1>Discover interesting places around the globe</h1>
+                    <h1>Discover interesting places around the globe.</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque recusandae totam et. 
                         Reiciendis inventore aut est accusamus maxime voluptates.
                     </p>
+                    <div class="hero-text-buttons">
+                        <button>Our Services</button>
+                        <button>View blog </button>
+                    </div>
                 </div>
-                <div class="hero-images">
-                    
+                <div class="hero-images-box">
+                    <img src="hero-img1.jpg" class="hero-img">
+                    <img src="hero-img2.jpg" class="hero-img">
+                    <img src="hero-img3.jpg" class="hero-img">
+                    <img src="hero-img4.jpg" class="hero-img">
                 </div>
             </div>
         </div>
-        
     </header>
-    
+    <div class="service-section" id="service-section">
+        <div class="content">
+            <div class="content-row">
+                <div class="service-card row-col">
+                    <i class="fa-solid fa-plane-departure"></i>
+                    <h6>Plane price</h6>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas neque beatae praesentium.</p>
+                </div>
+                <div class="service-card row-col">
+                    <i class="fa-solid fa-mountain-city"></i>
+                    <h6>
+                        Site seeing
+                    </h6>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas neque beatae praesentium.</p>
+                </div>
+                <div class="service-card row-col">
+                    <i class="fa-solid fa-cart-flatbed-suitcase"></i>
+                    <h6>
+                        Travel tips
+                    </h6>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas neque beatae praesentium.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="blog-section" id="blog-section">
+        <div class="content">
+            <div class="section-title">
+                <h1> Blog posts</h1>
+                <p class="section-subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora temporibus ullam doloribus
+                     cupiditate id corrupti.
+                </p>
+            </div>
+            <div class="content-row">
+                <div class="blog-card row-col">
+                    <img src="blog-img1.jpg" class="blog-img">
+                    <h6> Latest places Traveled</h6>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas neque beatae praesentium.</p>
+                    <button>View post</button>
+                </div>
+                <div class="blog-card row-col">
+                    <img src="blog-img2.jpg" class="blog-img">
+                    <h6> Latest places Traveled</h6>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas neque beatae praesentium.</p>
+                    <button>View post</button>
+                </div>
+                <div class="blog-card row-col">
+                    <img src="blog-img3.jpg" class="blog-img">
+                    <h6> Latest places Traveled</h6>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas neque beatae praesentium.</p>
+                    <button>View post</button>
+                </div>
+                <div class="blog-card row-col">
+                    <img src="blog-img4.jpg" class="blog-img">
+                    <h6> Latest places Traveled</h6>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas neque beatae praesentium.</p>
+                    <button>View post</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="testimonial-section" id="testimonial-section">
+        <div class="content">
+            <div class="section-title">
+                <h1> Testimonials</h1>
+            </div>
+            <div class="testimony-box">
+                <div class="content-row">
+                    <img src="testimony-img.jpg" class="testimony-img">
+                    <div class="testimony-text">
+                        <h6 id="person-title">Jane Doe / <span>Creative designer</span></h6>
+                        <h3>Amazing customer service</h3>
+                        <p>"
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, eius error iure quibusdam, voluptas 
+                            recusandae distinctio voluptatem dignissimos optio quae voluptate adipisci, quod cupiditate repudiandae nostrum 
+                            facere eveniet eligendi dolor."
+                        </p>
+                        <div class="social-media">
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="content">
+            <div class="content-row">
+                <p class="logo">Travel<span>world</span> </p>   
+                <div class="footer-links">
+                    <a href="#">Home</a>
+                    <a href="#service-section">Services</a>
+                    <a href="#blog-section">Blog</a>
+                    <a href="#testimonial-section">Testimonials</a>
+                </div>
+                <div class="social-media">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
